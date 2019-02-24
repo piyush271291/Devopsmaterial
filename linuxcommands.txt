@@ -1,0 +1,25 @@
+    1  cd /root/.ssh/authorized_keys
+    2  cat /root/.ssh/authorized_keys
+    3  exit
+    4  ssh-keygen -t rsa
+    5  cat /root/.ssh/id_rsa.pub.
+    6  cat /root/.ssh/id_rsa.pub
+    7  ssh -i /root/.ssh/id_rsa.pub root@
+    8  ssh -i /root/.ssh/id_rsa.pub root@18.222.149.223
+    9  chmod 400 /root/.ssh/id_rsa.pub
+   10  ssh -i /root/.ssh/id_rsa.pub root@18.222.149.223
+   11  ssh -i /root/.ssh/id_rsa.pub ec2-user@18.222.149.223
+   12  cat /root/.ssh/id_rsa.pub
+   13  ssh -i /root/.ssh/id_rsa.pub root@18.222.149.223
+   14  ssh -i /root/.ssh/id_rsa.pub ec2-user18.222.149.223
+   15  ssh -i /root/.ssh/id_rsa.pub ec2-user@172.31.44.175
+   16  ssh -i /home/ec2-user/.ssh/id_rsa2.pub ec2-user@172.31.44.175
+   17  ssh -i /root/.ssh/id_rsa.pub root@172.31.44.175
+   18  ssh -i /root/.ssh/id_rsa root@172.31.44.175
+   19  exit
+   20  cat history
+   21  hisotry
+   22  history
+   23  mkdir -p /opt/Devopsmaterial
+   24  cd /opt/Devopsmaterial
+   25  history > linuxcommands.txt
