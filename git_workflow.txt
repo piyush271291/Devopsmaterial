@@ -1,0 +1,9 @@
+ git init - Initializes the directory as a local  git repository
+
+git status - checks the status of git local repo
+
+git pull - pulls the latest changes from git. 
+
+git add <filename> - adds the file to the local repository
+
+git push -u origin master - pushes the changes to the master branch to the remote repository
