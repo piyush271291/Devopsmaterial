@@ -53,7 +53,8 @@ do
   ssh ${SERVER} sudo systemctl enable httpd
 
   # Test that the web server is accessible.
-  curl http://${SERVER}
+  echo "Response code for the web server: `curl -s -o /dev/null -w "%{http_code}" $SERVER`"
+ 
 
   if [[ "${?}" -ne 0 ]]
   then
